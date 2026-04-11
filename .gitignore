@@ -1,0 +1,29 @@
+# Ambiente virtuale
+venv/
+.venv/
+env/
+
+# Variabili d'ambiente (contiene API key)
+.env
+
+# Database vettoriale (generato a runtime)
+chroma_db/
+
+# Documenti personali
+documenti/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
