@@ -23,6 +23,14 @@ Groq LLM (LLaMA 3.3 70B)
 Answer + Source Citations
 ```
 
+## Screenshots
+
+**Document Upload**
+![Upload screen](docs/upload_screen.png)
+
+**Chat with source citations**
+![Chat screen](docs/chat_screen.png)
+
 **Stack:**
 - **Frontend:** Streamlit
 - **Embeddings:** `paraphrase-multilingual-mpnet-base-v2` (sentence-transformers) — runs locally, no API cost
